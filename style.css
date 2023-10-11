@@ -1,0 +1,41 @@
+/* Căn giữa toàn bộ nội dung */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff; /* Màu nền */
+  }
+  
+  /* Tùy chỉnh tiêu đề (h1) */
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    background-color: #ff0000; /* Màu nền của tiêu đề */
+    padding: 10px;
+    color: white; /* Màu văn bản của tiêu đề */
+  }
+  
+  /* Tùy chỉnh danh sách (ul) */
+  ul {
+    list-style-type: disc; /* Loại dấu đầu dòng (bullet) */
+    margin: 20px 0; /* Khoảng cách trên và dưới danh sách */
+    padding: 0;
+  }
+  
+  /* Tùy chỉnh mục danh sách (li) */
+  li {
+    font-size: 30px;
+    margin: 20px 0; /* Khoảng cách giữa các mục */
+    color: #333; /* Màu văn bản của danh sách */
+  }
+  body {
+    background-image: url(./background.jpg);
+    
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    background-blend-mode:inherit
+   
+  }
+  
