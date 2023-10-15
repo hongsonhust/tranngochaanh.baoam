@@ -31,13 +31,7 @@ body {
     margin: 20px 0; /* Khoảng cách giữa các mục */
     color: #333; /* Màu văn bản của danh sách */
   }
-  body {
-    background-image: url(./background.jpg);
-    
-    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
-    background-blend-mode:inherit
-   
-  }
+  
   h1 {
     font-size: 18px;
     margin-top: 20px;
